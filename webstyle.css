@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+h1.header {
+	font-family: "Lato", monospace;
+	font-size: 50px;
+	text-align: left;
+	color: white;
+	background-color: rgb(34,141,73);
+	padding: 20px;
+	padding-left: 60px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	top: 0;
+	left: 0;
+	border: none;
+	}
+h1 {
+	margin: 0;
+	top:0
+	left:0
+	}
+.container:hover .bar3{
+	background-color: gold;
+	}
+.container:hover .bar2{
+	background-color: gold;
+	}
+.container:hover .bar1{
+	background-color: gold;
+	}
+.sidemenu{
+	background-color: rgb(34,141,73);
+	color: white;
+	font-size: 40px;
+	font-weight: 300;
+	border:none;
+	top:0;
+	left:0;
+	margin: 0;
+	display: block;
+	opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+	}
+#mnubtn:hover {
+	color:gold;
+	background-color: darkgreen;
+	}
+#mnubtn{
+	padding-right: 50px;
+	padding-left: 50px;
+	}
+#btn2:hover {
+	color:gold;
+	background-color: darkgreen;
+	}
+#btn2{
+	padding-right: 13px;
+	padding-left: 50px;
+	}
+body {
+	margin: 0;
+	background-color: lightgray;
+	}
